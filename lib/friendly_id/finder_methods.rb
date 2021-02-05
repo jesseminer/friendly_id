@@ -84,7 +84,7 @@ module FriendlyId
     #
     #       # Use default slug, but lower case
     #       # If `id` is "Jane-Doe" or "JANE-DOE", this finds data by "jane-doe"
-    #       def parse_friendly_id(slug)
+    #       def self.parse_friendly_id(slug)
     #         super.downcase
     #       end
     #     end
